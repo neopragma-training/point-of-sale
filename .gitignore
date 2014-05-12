@@ -15,6 +15,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
+target/
 
 # External tool builders
 .externalToolBuilders/
@@ -31,4 +32,9 @@ local.properties
 # Temporary files produced by text editors
 
 *~
+
+# Application specific
+
+logs/
+
 

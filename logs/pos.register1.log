@@ -134,3 +134,13 @@
 1651830 [Thread-3] INFO  PosManager  - RegisterHandler reçu: init 1
 1651843 [Thread-3] INFO  PosManager  - RegisterHandler envoi: init 1
 1651843 [Thread-3] INFO  PosManager  - RegisterHandler envoi: init 1
+0    [main] INFO  PosManager  - écoute sur le port 1234
+0    [main] INFO  PosManager  - écoute sur le port 1234
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+5106 [main] INFO  PosManager  - connexion acceptée
+5106 [main] INFO  PosManager  - connexion acceptée
+5113 [Thread-0] INFO  PosManager  - RegisterHandler reçu: init 1
+5113 [Thread-0] INFO  PosManager  - RegisterHandler reçu: init 1
+5119 [Thread-0] INFO  PosManager  - RegisterHandler envoi: init 1
+5119 [Thread-0] INFO  PosManager  - RegisterHandler envoi: init 1

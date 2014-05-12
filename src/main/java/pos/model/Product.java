@@ -115,7 +115,7 @@ public class Product extends BasicDBObject{
 				(ObjectId) dbObject.get(ID),
 				(String) dbObject.get(SKU),
 				(String) dbObject.get(DESCRIPTION),
-				new BigDecimal((Double) dbObject.get(UNIT_PRICE)),
+				new BigDecimal((String) dbObject.get(UNIT_PRICE).toString()),
 				new Boolean((Boolean) dbObject.get(TAXABLE)));
 			products.add(product);
 		}
