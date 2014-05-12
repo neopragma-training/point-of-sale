@@ -1,0 +1,3 @@
+#!/bin/bash
+touch pos.store.log
+tail -f pos.store.log

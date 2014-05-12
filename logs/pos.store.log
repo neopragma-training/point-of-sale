@@ -1,0 +1,43 @@
+0    [main] INFO  PosManager  - écoute sur le port 1234
+0    [main] INFO  PosManager  - caisse enregistreuse 2 tentative de connexion au système de point de vente
+11231 [main] INFO  PosManager  - connexion acceptée
+11235 [Thread-0] INFO  PosManager  - RegisterHandler reçu: init 2
+11240 [Thread-0] INFO  PosManager  - RegisterHandler envoi: init 2
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+40   [main] INFO  PosManager  - caisse enregistreuse 1 incapable de se connecteur
+0    [main] INFO  PosManager  - écoute sur le port 1234
+0    [main] INFO  PosManager  - caisse enregistreuse 2 tentative de connexion au système de point de vente
+11344 [main] INFO  PosManager  - connexion acceptée
+11359 [Thread-0] INFO  PosManager  - RegisterHandler reçu: init 2
+11361 [Thread-0] INFO  PosManager  - RegisterHandler envoi: init 2
+0    [main] INFO  PosManager  - caisse enregistreuse 2 tentative de connexion au système de point de vente
+665327 [main] INFO  PosManager  - connexion acceptée
+665338 [Thread-1] INFO  PosManager  - RegisterHandler reçu: init 2
+665349 [Thread-1] INFO  PosManager  - RegisterHandler envoi: init 2
+0    [main] INFO  PosManager  - caisse enregistreuse 2 tentative de connexion au système de point de vente
+909591 [main] INFO  PosManager  - connexion acceptée
+909601 [Thread-2] INFO  PosManager  - RegisterHandler reçu: init 2
+909618 [Thread-2] INFO  PosManager  - RegisterHandler envoi: init 2
+0    [main] INFO  PosManager  - caisse enregistreuse 2 tentative de connexion au système de point de vente
+1031229 [main] INFO  PosManager  - connexion acceptée
+1031249 [Thread-3] INFO  PosManager  - RegisterHandler reçu: init 2
+1031261 [Thread-3] INFO  PosManager  - RegisterHandler envoi: init 2
+0    [main] INFO  PosManager  - écoute sur le port 1234
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+737649 [main] INFO  PosManager  - connexion acceptée
+737664 [Thread-0] INFO  PosManager  - RegisterHandler reçu: init 1
+737665 [Thread-0] INFO  PosManager  - RegisterHandler envoi: init 1
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+1098481 [main] INFO  PosManager  - connexion acceptée
+1098499 [Thread-1] INFO  PosManager  - RegisterHandler reçu: init 1
+1098512 [Thread-1] INFO  PosManager  - RegisterHandler envoi: init 1
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+1316240 [main] INFO  PosManager  - connexion acceptée
+1316255 [Thread-2] INFO  PosManager  - RegisterHandler reçu: init 1
+1316262 [Thread-2] INFO  PosManager  - RegisterHandler envoi: init 1
+0    [main] INFO  PosManager  - caisse enregistreuse 1 tentative de connexion au système de point de vente
+1651824 [main] INFO  PosManager  - connexion acceptée
+1651830 [Thread-3] INFO  PosManager  - RegisterHandler reçu: init 1
+1651843 [Thread-3] INFO  PosManager  - RegisterHandler envoi: init 1

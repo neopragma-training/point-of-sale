@@ -1,0 +1,48 @@
+#!/bin/bash
+#============================================================
+# Start and stop authserver for point of sale app
+#
+# 30 Apr 2014 v 1.0
+#============================================================
+APPDIR="$HOME/workspace/point-of-sale/credit-authorization/app"
+
+TEMP=`getopt -o hv --long help,version \
+             -n 'authserver' -- "$@"`
+
+if [ $? != 0 ] ; then echo "Terminating..." >&2 ; exit 1 ; fi
+eval set -- "$TEMP"
+
+function version {
+  echo 'authserver start/stop script version 1.0 30 Apr 2014'
+}
+
+function help {
+  echo 'Stop and start the credit authorization server'
+  echo '  authserver -h      Usage help'
+  echo '  authserver --help  Usage help'
+  echo '  authserver start   Start the server'
+  echo '  authserver stop    Stop the server'
+  echo '  authserver restart Stop and start the server'
+}
+
+function startserver {
+  ruby "$APPDIR/authserver.rb" &
+}
+
+function stopserver {
+  kill `cat ~/tmp/authserver.pid`
+}
+
+while true; do
+  case "$1" in
+    -h | --help ) help ; exit 0 ;;
+    -v | --version ) version ; exit 0 ;;
+    * ) shift ; break ;;
+  esac
+done
+
+if [[ "$1" == "start" ]] ; then startserver ; fi
+if [ "$1" == "stop" ] ; then stopserver ; fi
+if [ "$1" == "restart" ] ; then stopserver ; startserver ; fi
+
+exit 0
