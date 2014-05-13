@@ -1,4 +1,4 @@
-= Java Point of Sale
+# Java Point of Sale
 
 This is a student project designed to be used in Java programming classes. It provides a partial solution for students to build on.
 
