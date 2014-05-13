@@ -71,6 +71,7 @@ These commands will create executable jars for the Store and Register applicatio
 cd "$HOME/workspace/point-of-sale"
 mvn package -Pstore
 mvn package -Pregister
+```
 
 ### Step 9 - Verify the application will run
 
