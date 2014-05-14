@@ -144,3 +144,11 @@
 5113 [Thread-0] INFO  PosManager  - RegisterHandler reçu: init 1
 5119 [Thread-0] INFO  PosManager  - RegisterHandler envoi: init 1
 5119 [Thread-0] INFO  PosManager  - RegisterHandler envoi: init 1
+0    [main] INFO  PosManager  - caisse enregistreuse 8 tentative de connexion au système de point de vente
+0    [main] INFO  PosManager  - caisse enregistreuse 8 tentative de connexion au système de point de vente
+28807270 [main] INFO  PosManager  - connexion acceptée
+28807270 [main] INFO  PosManager  - connexion acceptée
+28807292 [Thread-1] INFO  PosManager  - RegisterHandler reçu: init 8
+28807292 [Thread-1] INFO  PosManager  - RegisterHandler reçu: init 8
+28807314 [Thread-1] INFO  PosManager  - RegisterHandler envoi: init 8
+28807314 [Thread-1] INFO  PosManager  - RegisterHandler envoi: init 8
